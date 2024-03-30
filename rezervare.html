@@ -1,0 +1,162 @@
+<html>
+<head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <meta name="title" content="PizzaHut - Pizza Delicioasa ">
+        <title>PizzaHut - Pizza Delicioasa</title>
+        <meta name="description" content="pizza">
+    
+        <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="./assets/css/style.css">
+    
+        <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+        <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+        <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+    
+        <style>
+            body {
+                background-image: url("./assets/images/hero-slider-3.jpg");
+                background-repeat: no-repeat;
+                background-size:contain;
+            }
+        </style>
+
+</head>
+
+<body>
+        
+    <a href="index.html" class="btn btn-secondary">
+        <span class="text text-1">Inapoi</span>
+
+        <span class="text text-2" aria-hidden="true">Inapoi</span>
+      </a>
+
+
+<section class="reservation">
+        <div class="container">
+
+            <div class="form reservation-form bg-black-10">
+
+                <form action="" class="form-left">
+
+                    <h2 class="headline-1 text-center">Rezervare Online</h2>
+                
+                    <p>
+                        Rezervari la <a href="tel:074123321" class="link">0740 123 321</a> sau completati formularul:
+                    </p>
+ 
+
+                    <div class="input-wrapper">
+                        <input type="text" name="name" placeholder="Numele" autocomplete="off" class="input-field">
+
+                        <input type="tel" name="phone" placeholder="Numarul de telefon" autocomplete="off" class="input-field">
+                    </div>
+
+                    <div class="input-wrapper">
+
+                        <div class="icon-wrapper">
+                            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                            <select name="person" class="input-field">
+                                <option value="1-person">1 persoana</option>
+                                <option value="2-person">2 persoane</option>
+                                <option value="3-person">3 persoane</option>
+                                <option value="4-person">4 persoane</option>
+                                <option value="5-person">5 persoane</option>
+                                <option value="6-person">6 persoane</option>
+                                <option value="7-person">7 persoane</option>
+                            </select>
+
+                            <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <div class="icon-wrapper">
+                            <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                            <input type="date" name="reservation-date" class="input-field">
+
+                            <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <div class="icon-wrapper">
+                            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                            <select name="person" class="input-field">
+                                <option value="010:00am">10 : 00</option>
+                                <option value="011:00am">11 : 00</option>
+                                <option value="012:00am">12 : 00</option>
+                                <option value="01:00pm">13 : 00</option>
+                                <option value="02:00pm">14 : 00</option>
+                                <option value="03:00pm">15 : 00</option>
+                                <option value="04:00pm">16 : 00</option>
+                                <option value="05:00pm">17 : 00</option>
+                                <option value="06:00pm">18 : 00</option>
+                                <option value="07:00pm">19 : 00</option>
+                                <option value="08:00pm">20 : 00</option>
+                                <option value="09:00pm">21 : 00</option>
+                                <option value="10:00pm">22 : 00</option>
+                            </select>
+
+                            <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                        </div>
+
+                    </div>
+
+                    <textarea name="message" placeholder="Mesaj" autocomplete="off" class="input-field"></textarea>
+
+                    <button type="submit" class="btn btn-secondary">
+                        <span class="text text-1">Rezerva o masa</span>
+
+                        <span class="text text-2" aria-hidden="true">Rezerva o masa</span>
+                    </button>
+
+                </form>
+
+                <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+
+                    <h2 class="headline-1 text-center">Contacteaza-ne</h2>
+
+                    <p class="contact-label">Evenimente</p>
+
+                    <a href="tel:+88123123456" class="body-1 contact-number hover-underline">0740 123 321</a>
+
+                    <div class="separator"></div>
+
+                    <p class="contact-label">Locatie</p>
+
+                    <address class="body-4">
+                        Calea Rahovei Nr 189 <br>
+                        Bucuresti
+                    </address>
+
+                    <p class="contact-label">Pranz</p>
+
+                    <p class="body-4">
+                        Luni pana Duminica<br>
+                        11:00 - 14:30
+                    </p>
+
+                    <p class="contact-label">Cina</p>
+
+                    <p class="body-4">
+                        Luni pana Duminica<br>
+                        17:00 - 22:00
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>

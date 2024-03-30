@@ -1,0 +1,14 @@
+{
+  "name": "postgres_connection",
+  "version": "1.0.0",
+  "description": "remote_connection_test",
+  "main": "database.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.11.3"
+  }
+}
